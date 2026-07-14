@@ -139,16 +139,19 @@ During development, this pipeline underwent extensive optimization and productio
 
 ### 1. Development Debugging & SDK Verification
 
-*Engineers tracking down deprecated v1beta client routing traps and verifying successful global refactoring migrations inside the Windsurf workspace:*
+*Engineers tracking down deprecated v1beta client routing traps and verifying successful global refactoring migrations.*
 
 ### 2. Streamlit UI Layout Bug Resolution
 
-*Catching and resolving layout parsing keyword argument crashes during response delivery visualization passes:*
+*Catching and resolving layout parsing keyword argument crashes during response delivery visualization passes*
 
 ### 3. Live Production Execution Web Dashboard
 
-*The operational FinIntel Core frontend visualizer processing complex financial data queries live without filesystem or API latency barriers:*
+*The operational FinIntel Core frontend visualizer processing complex financial data queries live without filesystem or API latency barriers*
 
 ```
+<img width="2877" height="1538" alt="image" src="https://github.com/user-attachments/assets/73ed587c-64f8-474f-99a3-ce0906c2ac50" />
+<img width="2876" height="1553" alt="image" src="https://github.com/user-attachments/assets/335c3772-3b9d-41dd-970b-ed82a6d56c0a" />
+<img width="2877" height="1538" alt="image" src="https://github.com/user-attachments/assets/c5264330-0639-4b65-8a3d-89e37a402af5" />
 
 ```
