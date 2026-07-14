@@ -150,8 +150,8 @@ During development, this pipeline underwent extensive optimization and productio
 *The operational FinIntel Core frontend visualizer processing complex financial data queries live without filesystem or API latency barriers*
 
 ```
-!<img width="2877" height="1538" alt="image" src="https://github.com/user-attachments/assets/73ed587c-64f8-474f-99a3-ce0906c2ac50" />
-!<img width="2876" height="1553" alt="image" src="https://github.com/user-attachments/assets/335c3772-3b9d-41dd-970b-ed82a6d56c0a" />
-!<img width="2877" height="1538" alt="image" src="https://github.com/user-attachments/assets/c5264330-0639-4b65-8a3d-89e37a402af5" />
+<img width="2877" height="1538" alt="image" src="https://github.com/user-attachments/assets/73ed587c-64f8-474f-99a3-ce0906c2ac50" />
+<img width="2876" height="1553" alt="image" src="https://github.com/user-attachments/assets/335c3772-3b9d-41dd-970b-ed82a6d56c0a" />
+<img width="2877" height="1538" alt="image" src="https://github.com/user-attachments/assets/c5264330-0639-4b65-8a3d-89e37a402af5" />
 
 ```
