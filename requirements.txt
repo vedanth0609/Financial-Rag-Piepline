@@ -1,0 +1,35 @@
+# LlamaIndex Core
+llama-index-core>=0.10.0
+
+# LlamaIndex LLMs - Gemini
+llama-index-llms-gemini>=0.1.0
+
+# LlamaIndex Embeddings - Gemini
+llama-index-embeddings-gemini>=0.1.0
+
+# ChromaDB Vector Store
+chromadb>=0.4.0
+llama-index-vector-stores-chroma>=0.1.0
+
+# Environment Variable Management
+python-dotenv>=1.0.1
+
+# Rich Terminal UI
+rich>=13.0.0
+
+# PDF Parsing for Financial Documents
+PyMuPDF>=1.23.0
+llama-index-readers-file>=0.1.0
+
+# Ragas Evaluation Framework
+ragas>=0.4.0
+
+# FastAPI Web Service Layer
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Streamlit Frontend Dashboard
+streamlit>=1.30.0
+requests>=2.31.0
