@@ -3,9 +3,14 @@ Enterprise Financial Intelligence Core Dashboard
 Decoupled Streamlit frontend communicating exclusively via HTTP to FastAPI gateway
 Bloomberg/FactSet aesthetic with robust error handling and type safety
 """
+import os
 import requests
 import streamlit as st
 from typing import Dict, Any, List, Optional
+
+# Read from environment variable in production, fallback to local in dev
+BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+API_ENDPOINT = f"{BACKEND_URL}/api/v1/query"
 
 # Page Configuration
 st.set_page_config(
@@ -211,7 +216,7 @@ def query_backend(query_text: str, top_k: int = 5) -> Dict[str, Any]:
     """
     try:
         response = requests.post(
-            "http://localhost:8000/api/v1/query",
+            API_ENDPOINT,
             json={"query": query_text, "top_k": top_k},
             timeout=30
         )
